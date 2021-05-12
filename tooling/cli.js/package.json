@@ -107,6 +107,6 @@
   },
   "resolutions": {
     "**/lodash": "4.17.21",
-    "**/hosted-git-info": "2.8.9"
+    "**/hosted-git-info": "4.0.2"
   }
 }
