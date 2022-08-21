@@ -1,5 +1,10 @@
 # Changelog
 
+## \[0.11.0]
+
+- Added APIs to create a system tray at runtime.
+  - [4d063ae9](https://www.github.com/tauri-apps/tauri/commit/4d063ae9ee9538cd6fa5e01b80070c6edf8eaeb9) feat(core): create system tray at runtime, closes [#2278](https://www.github.com/tauri-apps/tauri/pull/2278) ([#4862](https://www.github.com/tauri-apps/tauri/pull/4862)) on 2022-08-09
+
 ## \[0.10.2]
 
 - Added option to disable tray menu on left click on macOS.

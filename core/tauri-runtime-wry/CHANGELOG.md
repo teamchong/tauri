@@ -1,5 +1,14 @@
 # Changelog
 
+## \[0.11.0]
+
+- Implement theme APIs for Linux.
+  - [f21cbecd](https://www.github.com/tauri-apps/tauri/commit/f21cbecdeb3571ac4ad971b9a865ff62a131a176) feat(core): implement theme APIs for Linux ([#4808](https://www.github.com/tauri-apps/tauri/pull/4808)) on 2022-08-02
+- Changed `windows` map to be stored in a `RefCell` instead of a `Mutex`.
+  - [64546cb9](https://www.github.com/tauri-apps/tauri/commit/64546cb9cca2fe56cf81cfc4aaf85c4e1d58877c) refactor: use RefCell instead of Mutex for windows map, closes [#4870](https://www.github.com/tauri-apps/tauri/pull/4870) ([#4909](https://www.github.com/tauri-apps/tauri/pull/4909)) on 2022-08-10
+- Added APIs to create a system tray at runtime.
+  - [4d063ae9](https://www.github.com/tauri-apps/tauri/commit/4d063ae9ee9538cd6fa5e01b80070c6edf8eaeb9) feat(core): create system tray at runtime, closes [#2278](https://www.github.com/tauri-apps/tauri/pull/2278) ([#4862](https://www.github.com/tauri-apps/tauri/pull/4862)) on 2022-08-09
+
 ## \[0.10.2]
 
 - Disable drag-n-drop of tao based on `fileDropEnabled` value.
